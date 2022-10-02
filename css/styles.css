@@ -1,0 +1,201 @@
+:root {
+	--color-primary: #212121;
+	--color-background: #2f303a;
+	--color-secondary: #757575;
+	--color-white-color: #ffffff;
+	--color-thirdary: #2196f3;
+  }
+  
+  body {
+	font-size: 16px;
+	line-height: 1.7;
+	font-family: "Roboto", "Raleway", sans-serif;
+	color: var(--color-primary);
+	background-color: var(--color-white-color);
+  }
+  
+  /* HEADER */
+  .header {
+	color: var(--color-white-color);
+  }
+  .logo {
+	color: var(--color-primary);
+	font-family: "Raleway";
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	font-style: normal;
+  }
+  .logoslog {
+	color: var(--color-thirdary);
+  }
+  .logo:focus {
+	color: var(--color-primary);
+  }
+  
+  .back-link {
+	color: var(--color-thirdary);
+	text-decoration: none;
+  }
+  
+  .link {
+	color: var(--color-primary);
+	text-decoration: none;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.1;
+  }
+  
+  .link:hover,
+  :focus {
+	color: var(--color-thirdary);
+  }
+  
+  .adresse {
+	color: var(--color-secondary);
+	text-decoration: none;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+  }
+  .adresse:hover,
+  .adresse:focus {
+	color: var(--color-thirdary);
+  }
+  
+  /* Sectoin-hero */
+  .hero {
+	background-color: var(--color-background);
+  }
+  
+  .title {
+	color: var(--color-white-color);
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-transform: uppercase;
+  }
+  /* Button */
+  .hero-button {
+	color: var(--color-white-color);
+	background-color: var(--color-thirdary);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border-radius: 2px;
+	cursor: pointer;
+  }
+  
+  .hero-button:hover {
+	border-color: var(--color-white-color);
+	opacity: 0.9;
+  }
+  
+  .hero-button:focus {
+	border-color: var(--color-white-color);
+	opacity: 0.9;
+	outline: none;
+  }
+  
+  /* Button portfolio */
+  .btn {
+	color: var(--color-primary);
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	border-radius: 2px;
+  }
+  .btn:hover {
+	background: var(--color-thirdary);
+	color: #ffffff;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+  }
+  .btn:focus {
+	background: var(--color-thirdary);
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+  }
+  
+  .subtitle {
+	color: var(--color-primary);
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+  }
+  
+  h3 {
+	color: var(--color-primary);
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.1;
+	text-transform: uppercase;
+  }
+  
+  .list {
+	list-style: none;
+  }
+  
+  p {
+	color: var(--color-secondary);
+	line-height: 1.7;
+	font-family: "Roboto";
+	font-size: 14px;
+  }
+  
+  .styles-footer {
+	background-color: var(--color-primary);
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+  }
+  
+  .logo-footer {
+	color: var(--color-white-color);
+	text-decoration: none;
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	font-style: normal;
+  }
+  .logoslog-footer {
+	color: var(--color-thirdary);
+  }
+  
+  .location {
+	color: var(--color-white-color);
+	text-decoration: none;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+  }
